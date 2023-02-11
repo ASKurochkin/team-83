@@ -5,26 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finance Ledger</title>
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- base-styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">Finance Ledger</a>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Cases</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <a class="logo link" href="./index.html"
+            ><span class="accent">Finance</span> Ledger</a
+          >
+          <ul class="nav-list list">
+            <li class="nav-item"><a class="nav-link link" href="">Home</a></li>
+            <li class="nav-item"><a class="nav-link link" href="">About</a></li>
+            <li class="nav-item"><a class="nav-link link" href="">Cases</a></li>
+            <li class="nav-item"><a class="nav-link link" href="">Blog</a></li>
+            <li class="nav-item">
+              <a class="nav-link link" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <!-- Hero -->
-      <section>
-        <h1>The Sky Is The Limit</h1>
-        <p>We provide world class financial assistance</p>
-        <a href="">Read More</a>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">The Sky Is The Limit</h1>
+          <p class="hero-text">We provide world class financial assistance</p>
+          <a class="hero-link link" href="">Read More</a>
+        </div>
       </section>
 
       <!-- about -->
@@ -55,34 +82,101 @@
         </ul>
       </section>
 
-    <!-- Solutions -->
-    <section>
-        <img src="./images/solution/solution.jpg" alt="team" width="680" height="480" >
+      <!-- Solutions -->
+      <section>
+        <img
+          src="./images/solution/solution.jpg"
+          alt="team"
+          width="680"
+          height="480"
+        />
         <p>What you are looking for</p>
         <h2>We provide bespoke solutions</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?</p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
+          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
+          iste maiores deleniti?
+        </p>
         <a href="">Read More</a>
-    </section>
+      </section>
 
-    <!--Cases-->
+      <!--Cases-->
 
-    <section>
-      <p>This is what we do</p>
-      <h2>Business Cases</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-      <ul>
-        <li><img src="./images/cases/cases-1.jpg" alt="cases" width="320" height="214"></li>
-        <li><img src="./images/cases/cases-2.jpg" alt="cases" width="320" height="214"></li>
-        <li><img src="./images/cases/cases-3.jpg" alt="cases" width="320" height="214"></li>
-        <li><img src="./images/cases/cases-4.jpg" alt="cases" width="320" height="214"></li>
-        <li><img src="./images/cases/cases-5.jpg" alt="cases" width="320" height="214"></li>
-        <li><img src="./images/cases/cases-6.jpg" alt="cases" width="320" height="214"></li>
-        <li><img src="./images/cases/cases-7.jpg" alt="cases" width="320" height="214"></li>
-        <li><img src="./images/cases/cases-8.jpg" alt="cases" width="320" height="214"></li>
-      </ul>
-    </section>
-
-
+      <section>
+        <p>This is what we do</p>
+        <h2>Business Cases</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          sapiente!
+        </p>
+        <ul>
+          <li>
+            <img
+              src="./images/cases/cases-1.jpg"
+              alt="cases"
+              width="320"
+              height="214"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/cases/cases-2.jpg"
+              alt="cases"
+              width="320"
+              height="214"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/cases/cases-3.jpg"
+              alt="cases"
+              width="320"
+              height="214"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/cases/cases-4.jpg"
+              alt="cases"
+              width="320"
+              height="214"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/cases/cases-5.jpg"
+              alt="cases"
+              width="320"
+              height="214"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/cases/cases-6.jpg"
+              alt="cases"
+              width="320"
+              height="214"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/cases/cases-7.jpg"
+              alt="cases"
+              width="320"
+              height="214"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/cases/cases-8.jpg"
+              alt="cases"
+              width="320"
+              height="214"
+            />
+          </li>
+        </ul>
+      </section>
     </main>
     <footer></footer>
   </body>
