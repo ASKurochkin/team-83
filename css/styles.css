@@ -1,0 +1,147 @@
+:root {
+  --acent-color: #28a745;
+  --main-text-color: #333333;
+  --secondory-text-color: #ffffff;
+  --main-bg-color-: #ffffff;
+}
+
+body {
+  background-color: var(--main-bg-color-);
+  color: var(--main-text-color);
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+/* components */
+
+.container {
+  width: 1360px;
+  margin: 0 auto;
+}
+
+/* reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* styles header */
+
+.header {
+  background-color: #5e5e5e;
+}
+
+.header-container {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 35px;
+  line-height: 1.21;
+
+  color: var(--secondory-text-color);
+
+  margin-right: auto;
+}
+
+.accent {
+  color: var(--acent-color);
+  margin-right: 12px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.nav-link {
+  display: block;
+  line-height: 1.56;
+
+  color: var(--secondory-text-color);
+
+  padding-top: 21px;
+  padding-bottom: 21px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--acent-color);
+}
+/* hero-styles */
+
+.hero {
+  background-color: #5e5e5e;
+  padding-top: 259px;
+  padding-bottom: 284px;
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  color: #e9e9e9;
+
+  margin-bottom: 45px;
+}
+.hero-text {
+  font-size: 22px;
+  line-height: 1.67;
+  color: #e9e9e9;
+
+  margin-bottom: 29px;
+}
+.hero-link {
+  background-color: var(--acent-color);
+  border-radius: 5px;
+  color: var(--secondory-text-color);
+
+  line-height: 1.56;
+
+  padding: 10px 30px 9px 41px;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  background-color: var(--secondory-text-color);
+  color: var(--acent-color);
+}
