@@ -194,3 +194,45 @@ button {
 .about-text {
   line-height: 1.56;
 }
+
+/* solutions-styles */
+
+.solutions-container {
+  display: flex;
+}
+
+.solutions-content-wrapper {
+  width: 50%;
+  background-color: var(--acent-color);
+  padding: 84px 44px 84px 30px;
+
+  color: var(--secondory-text-color);
+}
+.solutions-subtitle {
+  font-size: 20px;
+  line-height: 1.65;
+
+  margin-bottom: 5px;
+}
+.solutions-title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+
+  margin-bottom: 26px;
+}
+.solutions-text {
+  font-size: 18px;
+  line-height: 1.56;
+
+  margin-bottom: 17px;
+}
+.solutions-link {
+  display: inline-block;
+
+  border: 1px solid var(--secondory-text-color);
+  border-radius: 5px;
+
+  line-height: 1.56;
+  padding: 11px 27px 12px 42px;
+}
