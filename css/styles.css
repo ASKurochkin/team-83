@@ -131,7 +131,7 @@ button {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	max-width: 1360px;
+	min-width: 1360px;
 	margin: 0 auto;
 	background-color: #5e5e5e;
 	padding-top: 259px;
