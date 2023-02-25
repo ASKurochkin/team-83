@@ -6,3 +6,5 @@
 ## Телеграм-канал нашої команди
 <https://t.me/+h2xrohMXb41hYTJi>
 
+## Збірник Vanilla App Template
+<https://github.com/goitacademy/vanilla-app-template>
