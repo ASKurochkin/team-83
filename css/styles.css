@@ -473,7 +473,7 @@ button {
   top: 0;
   bottom: 0;
   margin: auto;
-  fill: var(--secondory-text-color);
+  fill: var(--secondary-text-color);
   align-items: baseline;
 
   opacity: 0;
@@ -511,6 +511,7 @@ button {
   justify-content: space-between;
   width: 216px;
   height: 35px;
+  margin: 0 auto;
 }
 
 
@@ -522,5 +523,5 @@ button {
   margin-top: 10px;
   line-height: 1.56;
   text-align: center;
-  color: var(--secondory-text-color)
+  color: var(--secondary-text-color)
 }
