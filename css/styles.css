@@ -121,6 +121,7 @@ button {
 .nav-link:focus {
   color: var(--acent-color);
 }
+
 /* hero-styles */
 
 .hero {
@@ -138,6 +139,7 @@ button {
 
   margin-bottom: 45px;
 }
+
 .hero-text {
   font-size: 22px;
   line-height: 1.67;
@@ -145,6 +147,7 @@ button {
 
   margin-bottom: 29px;
 }
+
 .hero-link {
   background-color: var(--acent-color);
   border-radius: 5px;
@@ -208,12 +211,14 @@ button {
 
   color: var(--secondory-text-color);
 }
+
 .solutions-subtitle {
   font-size: 20px;
   line-height: 1.65;
 
   margin-bottom: 5px;
 }
+
 .solutions-title {
   font-weight: 300;
   font-size: 38px;
@@ -221,12 +226,14 @@ button {
 
   margin-bottom: 26px;
 }
+
 .solutions-text {
   font-size: 18px;
   line-height: 1.56;
 
   margin-bottom: 17px;
 }
+
 .solutions-link {
   display: inline-block;
 
@@ -287,4 +294,34 @@ button {
 .cases-item {
   /* flex-basis: calc((100% - 16px) / 4); */
   /* чомусь не працює (не зміг зрозуміти чому) - дає три картинки*/
+}
+
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  background-color: var(--main-text-color);
+
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: space-between;
+  width: 216px;
+  height: 35px;
+}
+
+
+.footer-socials-icon {
+  fill: var(--main-bg-color-);
+}
+
+.footer-copyright {
+  margin-top: 10px;
+  line-height: 1.56;
+  text-align: center;
+  color: var(--secondory-text-color)
 }
