@@ -8,3 +8,6 @@
 
 ## Збірник Vanilla App Template
 <https://github.com/goitacademy/vanilla-app-template>
+
+## Бібліобека для анімацій
+<https://animate.style/>
