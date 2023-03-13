@@ -1,5 +1,5 @@
 .hero {
-  background-image: url(../images/hero/mob/hero-bg-1x.jpg);
+  background-image: url(/images/hero/mob/hero-bg-1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -15,7 +15,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/hero/mob/hero-bg-2x@2x.jpg);
+    background-image: url(/images/hero/mob/hero-bg-2x@2x.jpg);
   }
 }
 
@@ -24,14 +24,14 @@
     padding-top: 407px;
     padding-bottom: 412px;
 
-    background-image: url(../images/hero/tab/hero-tab-1x.jpg);
+    background-image: url(/images/hero/tab/hero-tab-1x.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url(../images/hero/tab/hero-tab-2x@2x.jpg);
+      background-image: url(/images/hero/tab/hero-tab-2x@2x.jpg);
     }
   }
 }
@@ -46,7 +46,7 @@
         rgba(0, 0, 0, 0.4),
         rgba(0, 0, 0, 0.4)
       ),
-      url(../images/hero/descktop/hero-des-1x.jpg);
+      url(/images/hero/descktop/hero-des-1x.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -58,7 +58,7 @@
           rgba(0, 0, 0, 0.4),
           rgba(0, 0, 0, 0.4)
         ),
-        url(../images/hero/descktop/hero-des-2x@2x.jpg);
+        url(/images/hero/descktop/hero-des-2x@2x.jpg);
     }
   }
 }
